@@ -1,0 +1,10 @@
+<launch>
+	<node pkg="myRace" name="parking" type="parking.py"/>
+	<node pkg="myRace" name="ms" type="move_base_controller.py"/>
+	<node pkg="myRace" name="tunnel" type="launch_try.py" />
+
+	<node pkg="myRace" name="left_or_right" type="left_or_right.py"/>
+	
+	<node pkg="myRace" name="logic" type="logic.py"/>
+	<node pkg="cmd_dist" name="ss" type="CmdService.py"/>
+</launch>

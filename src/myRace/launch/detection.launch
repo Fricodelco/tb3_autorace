@@ -1,0 +1,9 @@
+<launch>
+	<node pkg="myRace" name="error_sum" type="error.py"/>
+
+	<node pkg="myRace" name="normalize_image" type="normalizer_node"/>
+
+	<node pkg="myRace" name="sign_detect" type="sign_detect_new.py"/>
+	
+	
+</launch>

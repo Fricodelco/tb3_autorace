@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="myRace" name="move_base_controller" type="move_base_controller.py"/>
+	<node pkg="myRace" name="amcl_launch" type="launch_try.py"/>
+
+</launch>
